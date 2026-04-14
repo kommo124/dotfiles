@@ -33,17 +33,18 @@ window#waybar {
 }
 
 #workspaces button {
-  color: @muted;
+  color: #ffffff;
   background: transparent;
   border: none;
   box-shadow: none;
   text-shadow: none;
-  border-radius: 0;
-  font-size: 13px;
+  border-radius: 4px;
+  font-size: 16px;
   margin: 0 2px;
   min-width: 24px;
   min-height: 24px;
   padding: 0 6px;
+  transition: all 0.3s ease;
 }
 
 #workspaces button label {
@@ -51,11 +52,12 @@ window#waybar {
 }
 
 #workspaces button.active {
-  background: transparent;
+  background: rgba(255, 255, 255, 0.2);
   border: none;
   color: #ffffff;
   text-shadow: none;
   font-weight: bold;
+  border-radius: 4px;
 }
 
 #workspaces button:first-child {

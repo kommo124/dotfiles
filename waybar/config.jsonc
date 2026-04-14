@@ -25,11 +25,19 @@
     "separate-outputs": true,
   },
   "hyprland/workspaces": {
-    "format": "{name}",
+    "format": "{icon}",
     "on-click": "activate",
     "all-outputs": false,
     "persistent-only": true,
     "sort-by-number": true,
+    "format-icons": {
+      "1": "○",
+      "2": "○",
+      "3": "○",
+      "4": "○",
+      "default": "○",
+      "active": "●"
+    },
     "persistent-workspaces": {
       "HDMI-A-1": [1, 2, 3, 4]
     }
