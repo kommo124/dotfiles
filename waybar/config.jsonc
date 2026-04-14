@@ -35,11 +35,12 @@
       "2": "○",
       "3": "○",
       "4": "○",
+      "5": "○",
       "default": "○",
       "active": "●"
     },
     "persistent-workspaces": {
-      "HDMI-A-1": [1, 2, 3, 4]
+      "HDMI-A-1": [1, 2, 3, 4, 5]
     }
   },
   "clock": {
